@@ -7,7 +7,7 @@ import headshot from '@/public/photo-of-me.jpg';
 import Link from 'next/link';
 import { BsArrowRight, BsLinkedin} from 'react-icons/bs';
 import { HiDownload } from 'react-icons/hi';
-import { FaGithubSquare } from 'react-icons/fa';
+import { FaGithubSquare, FaReact } from 'react-icons/fa';
 import { useSectionInView } from '@/lib/hooks';
 import { useActiveSectionContext } from '@/context/active-section-context';
 
@@ -57,12 +57,12 @@ export default function Intro() {
         >
             <span className="font-bold">Hello, I'm Abraham. </span>I'm a{" "}
             <span className="font-bold">full-stack developer</span> with{" "}
-            <span className="font-bold"> 1 year</span> of experience. I enjoy
-            building <span className="italic">sites & apps</span>. My focus is{" "}
-            <span className="underline">React (Next.js)</span>.
+            <span className="font-bold"> 1 year</span> of experience. 
+            Welcome to my <span className="font-bold">personal portfolio</span> powered by{" "} 
+            <span className="font-bold">React (Next.js)</span>.
         </motion.h1>
 
-        <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
+        <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium'
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
@@ -79,7 +79,7 @@ export default function Intro() {
                 Contact me here <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition' />
             </Link>
 
-            <a href='/resume.pdf'
+            <a href='/AbrahamSmithResume.pdf'
                 download 
                 className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10'>
                 Download Resume <HiDownload className='opacity-60 group-hover:translate-y-1 transition' />
