@@ -40,7 +40,7 @@ export const experiencesData = [
     description:
       "A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Node.js, MySQL, MongoDB, Express, GraphQL, and ReactJS",
     icon: React.createElement(LuGraduationCap),
-    date: "2022",
+    date: "November 2022",
   },
   {
     title: "Freelance Developer",
