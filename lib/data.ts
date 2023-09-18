@@ -63,6 +63,7 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "GamezOnWheelz ATL",
+    url:"https://gamezonwheelzatl.net/",
     description:
       "Official website for the Atlanta's #1 Game Truck. Powered by Wordpress.",
     tags: ["Wordpress", "Elementor", "HTML", "CSS"],
@@ -70,6 +71,7 @@ export const projectsData = [
   },
   {
     title: "DT2 Hospitality Solutions",
+    url:"https://www.dt2hospitality.com/",
     description:
       "Official website for a hospitality taskforce consulting agency. Powered by AWS Amplify.",
     tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "Node.js", "GraphQL", "AWS"],
@@ -77,6 +79,7 @@ export const projectsData = [
   },
   {
     title: "Puppy Buddy™",
+    url:"https://purrrfectsleeps.com/",
     description:
       "Working ecommerce store built for a client. Built on Shopify.",
     tags: ["Shopify", "Ecommerce"],
