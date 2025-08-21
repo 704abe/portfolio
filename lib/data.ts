@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import gowatlImg from "@/public/gowatl-logo.png";
-import dt2Img from "@/public/dt2-logo.png";
-import shopifyImg from "@/public/shopify-logo.png";
+import workandchillImg from "@/public/WORKANDCHILL-LOGO.png";
+import jollifyImg from "@/public/Jollify.png";
+import egtImg from "@/public/epicgaminglogo copy.png";
 
 export const links = [
   {
@@ -35,12 +35,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Berkeley, CA",
+    title: "Engineering Associate",
+    location: "Charlotte, NC",
     description:
-      "A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Node.js, MySQL, MongoDB, Express, GraphQL, and ReactJS",
-    icon: React.createElement(LuGraduationCap),
-    date: "November 2022",
+      "Full-stack C#/.NET developer at Wells Fargo.",
+    icon: React.createElement(FaReact),
+    date: "2024 - present",
+  },
+  {
+    title: "IT Support Specialist",
+    location: "Charlotte, NC",
+    description:
+      "Part-time, on-call position as IT support at Bank of America Stadium (Carolina Panthers) and Specturm Center (Charlotte Hornets)",
+    icon: React.createElement(FaReact),
+    date: "2023 - present",
   },
   {
     title: "Freelance Developer",
@@ -51,67 +59,65 @@ export const experiencesData = [
     date: "2022 - Present",
   },
   {
-    title: "IT Support Specialist",
-    location: "Charlotte, NC",
+    title: "Graduated bootcamp",
+    location: "Berkeley, CA",
     description:
-      "Part-time, on-call position as IT support at Bank of America Stadium (Carolina Panthers) and Specturm Center (Charlotte Hornets)",
-    icon: React.createElement(FaReact),
-    date: "2023 - present",
+      "A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Node.js, MySQL, MongoDB, Express, GraphQL, and ReactJS",
+    icon: React.createElement(LuGraduationCap),
+    date: "November 2022",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "GamezOnWheelz ATL",
-    url:"https://gamezonwheelzatl.net/",
+    title: "Work and Chill",
+    url:"https://workandchill.io/",
     description:
-      "Official website for the Atlanta's #1 Game Truck. Powered by Wordpress.",
-    tags: ["Wordpress", "Elementor", "HTML", "CSS"],
-    imageUrl: gowatlImg,
+      "Workplace Entertainment Platform where companies browse and order virtual experiences for employees.",
+    tags: ["React", "TypeScript", "Node.js", "Express.js", "PostgreSQL", "Stripe API"],
+    imageUrl: workandchillImg,
   },
   {
-    title: "DT2 Hospitality Solutions",
-    url:"https://www.dt2hospitality.com/",
+    title: "Jollify IT",
+    url:"https://jollifyit.com/",
     description:
-      "Official website for a hospitality taskforce consulting agency. Powered by AWS Amplify.",
-    tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "Node.js", "GraphQL", "AWS"],
-    imageUrl: dt2Img,
+      "Official website for an IT consulting company.",
+    tags: ["React", "Node.js", "Tailwind"],
+    imageUrl: jollifyImg,
   },
   {
-    title: "Puppy Buddy™",
-    url:"https://purrrfectsleeps.com/",
+    title: "Epic Gaming Truck",
+    url:"https://epicgamingtruck.com/",
     description:
-      "Working ecommerce store built for a client. Built on Shopify.",
-    tags: ["Shopify", "Ecommerce"],
-    imageUrl: shopifyImg,
+      "Website for a video game truck business. Built using Wordpress.",
+    tags: ["HTML", "CSS", "Wordpress"],
+    imageUrl: egtImg,
   },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
-  "Bootstrap",
   "JavaScript",
   "TypeScript",
-  "JQuery",
   "React",
   "Next.js",
   "Node.js",
+  "C#/.NET",
   "AWS",
+  "Azure",
   "Git",
-  "Tailwind",
+  "Github Actions",
+  "Github Copilot",
+  "Jest",
   "MongoDB",
-  "Mongoose",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "REST",
+  "Agile",
   "SQL",
-  "MySQL",
-  "Sequelize",
   "Python",
-  "Framer Motion",
   "Wordpress",
+  "SEO",
   "Progressive Web Apps",
+  "Replit"
 ] as const;

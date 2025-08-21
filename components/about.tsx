@@ -27,12 +27,10 @@ export default function About() {
             feeling of finally figuring out a solution to a problem. My core stack
             is{" "}
             <span className="font-medium">
-            React, Next.js, Node.js, and MongoDB
+            React, Node.js, Express.js, and SQL
             </span>
             . I am also familiar with TypeScript and Python. I am always looking to
-            learn new technologies. I am currently looking for a{" "}
-            <span className="font-medium">full-time position</span> as a software
-            developer.
+            learn new technologies and have dived headfirst into AI-assisted development.
         </p>
         <p>
             <span className="italic">When I'm not coding</span>, I enjoy playing
