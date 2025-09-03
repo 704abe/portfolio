@@ -3,8 +3,8 @@
   "buildCommand": "next build",
   "cleanUrls": true,
   "functions": {
-    "api/**/*.js": {
-      "runtime": "nodejs22.x"
+    "api/**/*": {
+      "runtime": "nodejs@22"
     }
   }
 }
