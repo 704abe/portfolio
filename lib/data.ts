@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import workandchillImg from "@/public/WORKANDCHILL-LOGO.png";
-import agPartyImg from "@/public/AG_Party.png";
+import agPartyImg from "@/public/AG-Party.png";
 import egtImg from "@/public/epicgaminglogo copy.png";
 
 export const links = [
