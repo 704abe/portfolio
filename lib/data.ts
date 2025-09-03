@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import workandchillImg from "@/public/WORKANDCHILL-LOGO.png";
-import jollifyImg from "@/public/jollify.png";
+import agPartyImg from "@/public/AG_Party.png";
 import egtImg from "@/public/epicgaminglogo copy.png";
 
 export const links = [
@@ -78,12 +78,12 @@ export const projectsData = [
     imageUrl: workandchillImg,
   },
   {
-    title: "Jollify IT",
+    title: "AG Party Rentals",
     url:"https://jollifyit.com/",
     description:
-      "Official website for an IT consulting company.",
+      "Booking website for a small bounce house rental business.",
     tags: ["React", "Node.js", "Tailwind"],
-    imageUrl: jollifyImg,
+    imageUrl: agPartyImg,
   },
   {
     title: "Epic Gaming Truck",
