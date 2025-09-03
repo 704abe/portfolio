@@ -79,10 +79,10 @@ export const projectsData = [
   },
   {
     title: "AG Party Rentals",
-    url:"https://jollifyit.com/",
+    url:"https://agpartyrentalsllc.com/",
     description:
-      "Booking website for a small bounce house rental business.",
-    tags: ["React", "Node.js", "Tailwind"],
+      "Booking website for a small bounce house rental business. Booking capability with admin dashboard for inventory management.",
+    tags: ["React", "TypeScript", "Node.js", "Tailwind"],
     imageUrl: agPartyImg,
   },
   {
